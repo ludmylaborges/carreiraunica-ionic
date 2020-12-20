@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Bolo da Lud! 
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -12,6 +12,26 @@
       <ion-title size="large">Tab 3</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-row class="ion-align-items-center">
+    <ion-col size="12" class="ion-text-center">
+      <ion-button (click)="onNavi()">
+        <span >Fazer Pedido</span>
+      </ion-button>
+    </ion-col>
+  </ion-row>
+  <app-explore-container name="Torta Salgada"></app-explore-container>
 </ion-content>
+<ion-list>
+  <ion-item>
+    <ion-label>Torta de Frango - 80 Reais</ion-label>
+    <ion-checkbox slot="start"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-label>Torta de Carne Seca - 80 Reais</ion-label>
+    <ion-checkbox slot="start"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-label>Torta de Camarão 100 Reais</ion-label>
+    <ion-checkbox slot="start"></ion-checkbox>
+  </ion-item>
+</ion-list>
